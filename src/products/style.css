@@ -1,0 +1,23 @@
+.images{
+    width: 40%;
+}
+.displayProducts{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-gap: 20px;
+
+}
+.view{
+   background-color: #1815d7;
+   border: 1px solid #ccc;
+   padding: 10px 19px;
+   font-family: "Roboto", sans-serif;
+   font-size: 16px;
+   color: white;
+   border-radius: 9px;
+}
+&:hover {
+   background-color: #E6E6E6;
+   border-color: #bbb;
+   color: #222;
+ }

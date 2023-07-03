@@ -1,0 +1,41 @@
+.navbar{
+  align-items: center;
+    background-color: #1815d7;
+    border: 1px solid #050000;
+    padding: 20px;
+    /* margin-bottom: 20px; */
+    display: flex;
+    gap: 10rem;
+    text-align: center;
+    cursor: pointer;
+    
+  }
+  .navbar a {
+      color: white;
+      text-decoration: none;
+      margin-left: 160px;
+    }
+    a:hover::before {
+      color: #000;
+    }
+   a:hover::after {
+      color: #000;
+      text-decoration: underline;
+    }
+    .button{
+      background-color: #4c4a97;
+      border: 1px solid #3C3A3A;
+      width: 10%;
+      padding: 13px 9px;
+      border-radius: 20px;
+      color: white;
+      cursor: pointer;
+      margin-left: 100px;
+   }
+  
+  
+  
+  
+  
+  
+  
